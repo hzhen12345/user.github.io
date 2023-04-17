@@ -1,0 +1,212 @@
+* { box-sizing: border-box; }
+
+#heroroad{
+    background-image: url('image/heroroad.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heromug{
+    background-image: url('image/heromug.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url('image/heroguitar.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+h1{
+    /*line-height: 200%*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+h4{
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left:.5em ;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    padding-bottom: 0
+    clear;left:
+}
+
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family:Verdana,Arial,sans-serif ;
+    background-image: url('image/background.gif');
+}
+
+header{
+    background-color: #d2b48c;
+    height: 150px;
+    background-image: url('image/javajamlogo.jpg');
+    background-repeat: no-repeat;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float:left;
+    width: 200px;
+    
+}
+nav a {text-decoration: none;}
+
+nav a:link{
+    color: #FEF6C2;
+
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    color: #CC9933;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+footer{
+    background-color: #d2b48c;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #FEF6C2;*/
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #231814;
+}
+
+main{
+    /*padding: 0em,2em,2em,2em;*/
+    padding: 0em,0em,2em,0em;
+    margin-left: 200px;
+    background-color: #fef6c2;
+    display:block;
+}
+
+main h2,main h3,main h4,main p,main div,main ul,main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.floatleft{
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table{
+  width: 90%;
+  border-spacing: 0;
+  background-color: #ffffcc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,th{
+    padding:10px;
+}
+
+tr:nth-of-type(odd){
+     background-color: #d2b48e;
+}
+
+form{
+    float: left;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input[type=text], select, textarea {
+    margin-bottom: 1em;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    margin-left: 9.5em;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+#herojobs{
+    height: 250px;
+    background-image: url('image/herojobs.jpg');
+    background-size: 100% 100%; 
+}
+
+form{
+    padding: 2em;
+}
+
+label{
+    float:left;
+    display:block;
+    text-align:right;
+    width:8em;
+    padding-right: 1em;
+}
+
+input,textarea{
+    display:block;
+    margin-bottom: 1em;
+    
+}
+
+#mySubmit{
+    margin-left: 9.5em;
+}
+
+#herojobs{
+    height: 250px;
+    background-image: url('image/herojobs.jpg');
+    background-size: 100% 100%;
+}
+
+#mobile{display:none;}
+#desktop{dispaly:inline;}
